@@ -1,6 +1,6 @@
 #!/bin/bash
 
-tests="moodle auto discord"
+tests="moodle auto"
 pwd="$PWD"
 
 for test in $tests
