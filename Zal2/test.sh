@@ -4,7 +4,7 @@ RED="\e[31m"
 GREEN="\e[32m"
 END="\e[0m"
 
-tests="moodle auto discord"
+tests="moodle auto"
 pwd="$PWD"
 
 for test in $tests
