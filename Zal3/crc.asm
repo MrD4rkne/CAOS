@@ -5,7 +5,7 @@ SEGMENT_LENGTH       equ 2
 ; BUFF_SIZE is based on several benchmarks,
 ; making it bigger does not change
 ; the performence of program by much
-BUFF_SIZE            equ 4096
+BUFF_SIZE            equ 65535
 FILE_DESCRIPTOR_SIZE equ 4
 JUMP_LENGTH          equ 4
 FILE_NOT_OPENED      equ -1
