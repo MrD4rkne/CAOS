@@ -1,6 +1,6 @@
 # Computer Architecture and Operating System Projects
 
-Welcome to my repository for the Computer Architecture and Operating System course! This repository contains my solutions for the three projects I completed during the course.
+This repository contains my projects for the Computer Architecture and Operating System course as a part of Computer Science Bachelor's Studies at the University of Warsaw.
 
 ## Contents
 
