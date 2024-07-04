@@ -7,8 +7,9 @@ GREEN="\e[32m"
 END="\e[0m"
 
 WORK_DIR="$PWD"
-TEST_NAMES="auto manual moodle unit"
-TESTS_DIR="."
+TEST_NAMES="manual moodle unit"
+TESTS_DIR="$PWD/tests"
+SOLUTION_DIR="$PWD/solution"
 
 TESTS_COUNT=10
 VALGRIND=0
@@ -46,7 +47,7 @@ for test in $TEST_NAMES; do
 
     echo "Loading $test .."
 
-    ./prepare.sh "$TESTS_DIR/$test"
+    ./prepare.sh "$SOLUTION_DIR" "$TESTS_DIR/$test"
 
     if ! cd "$TESTS_DIR/$test"; then
         echo -e "${RED}Folder for $test was not found.${END}"

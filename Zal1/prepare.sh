@@ -1,16 +1,10 @@
 #!/bin/bash
 
-SOLUTION_DIR="$HOME/Files/Sem2/Akso/Zal1/solution"
-DESTINATION_DIR="$PWD"
-
 CURR_DIR="$PWD"
 
-if [ $# -ge 1 ] ; then
-  DESTINATION_DIR="$1"
-fi
-
 if [ $# -ge 2 ] ; then
-  SOLUTION_DIR="$2"
+  SOLUTION_DIR="$1"
+  DESTINATION_DIR="$2"
 fi
 
 cd "$SOLUTION_DIR" || exit 1

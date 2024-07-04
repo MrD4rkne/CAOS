@@ -1,14 +1,16 @@
 #!/bin/bash
 WORK_DIR="$PWD"
-TEST_NAMES="auto manual moodle unit"
-SOLUTION_DIR="../solution"
+TESTS_DIR="$PWD/tests"
+TEST_NAMES="manual moodle unit"
+SOLUTION_DIR="./solution"
 
 FILES="$(ls $SOLUTION_DIR/)" || exit
 
 for test in $TEST_NAMES
 do
+  test_dir="$TESTS_DIR/$test"
   echo 
-  cd "$test" || exit 1
+  cd "$test_dir" || exit 1
   echo "$test:"
 
   echo "Make clean..."
