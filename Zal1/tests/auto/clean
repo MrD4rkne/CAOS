@@ -1,0 +1,7 @@
+#!/bin/bash
+
+rm -rf auto
+rm -rf test_gen
+rm -rf test.in
+
+exit

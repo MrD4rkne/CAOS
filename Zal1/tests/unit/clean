@@ -1,0 +1,6 @@
+#!/bin/bash
+
+rm -rf testy
+rm -rf test
+
+exit

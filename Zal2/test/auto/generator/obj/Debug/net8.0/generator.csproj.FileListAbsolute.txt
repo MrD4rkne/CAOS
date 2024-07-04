@@ -1,0 +1,14 @@
+/home/mszopa/uw/Sem2/akso/Zal2/test/auto/generator/obj/Debug/net8.0/generator.GeneratedMSBuildEditorConfig.editorconfig
+/home/mszopa/uw/Sem2/akso/Zal2/test/auto/generator/obj/Debug/net8.0/generator.AssemblyInfoInputs.cache
+/home/mszopa/uw/Sem2/akso/Zal2/test/auto/generator/obj/Debug/net8.0/generator.AssemblyInfo.cs
+/home/mszopa/uw/Sem2/akso/Zal2/test/auto/generator/obj/Debug/net8.0/generator.csproj.CoreCompileInputs.cache
+/home/mszopa/uw/Sem2/akso/Zal2/test/auto/generator/bin/Debug/net8.0/generator
+/home/mszopa/uw/Sem2/akso/Zal2/test/auto/generator/bin/Debug/net8.0/generator.deps.json
+/home/mszopa/uw/Sem2/akso/Zal2/test/auto/generator/bin/Debug/net8.0/generator.runtimeconfig.json
+/home/mszopa/uw/Sem2/akso/Zal2/test/auto/generator/bin/Debug/net8.0/generator.dll
+/home/mszopa/uw/Sem2/akso/Zal2/test/auto/generator/bin/Debug/net8.0/generator.pdb
+/home/mszopa/uw/Sem2/akso/Zal2/test/auto/generator/obj/Debug/net8.0/generator.dll
+/home/mszopa/uw/Sem2/akso/Zal2/test/auto/generator/obj/Debug/net8.0/refint/generator.dll
+/home/mszopa/uw/Sem2/akso/Zal2/test/auto/generator/obj/Debug/net8.0/generator.pdb
+/home/mszopa/uw/Sem2/akso/Zal2/test/auto/generator/obj/Debug/net8.0/generator.genruntimeconfig.cache
+/home/mszopa/uw/Sem2/akso/Zal2/test/auto/generator/obj/Debug/net8.0/ref/generator.dll

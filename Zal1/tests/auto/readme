@@ -1,0 +1,57 @@
+Testy do zadania NAND. Autor: Kamil Szymczak
+
+W tym katalogu znajdują się narzędzia do automatycznego 
+testowania rozwiązań do zadania NAND. Zawiera on następujące
+pliki:
+* test_gen.cpp - generator testów napisany w C++,
+* interactor.c - moduł korzystający z biblioteki nand.h, który
+                 współpracuje z formatem testów generowanych
+                 przez test_gen.cpp,
+* brute        - plik wykonywalny, który generuje poprawne 
+                 odpowiedzi do testów wygenerowanych przez
+                 test_gen.cpp,
+* run_tests.sh - skrypt do obsługi automatycznego testowania.
+
+Aby uruchomić testowanie należy przenieść wszystkie pliki
+wymienione powyżej wprost do katalogu z projektem (nie powinny 
+się znajdować w żadnym podkatalogu). Następnie testy uruchamiamy
+komendą ./run_tests. Posiada ona opcjonalne argumenty:
+    -v: ta opcja włącza valgrinda
+    -n num_tests: ta opcja określa liczbę testów do wykonania
+                  (domyślnie 10).
+
+Zatem przykładowe wywołanie programu może być następujące:
+
+./run_tests -v -n 20
+
+
+Jeśli program odnajdzie test, na którym działania programu
+brute oraz programu dostarczonego przez użytkownika różnią się,
+wówczas na ekranie pojawi się o tym informacja, a dalsze testy
+nie będą się wykonywać. Znaleziony test będzie znajdować się
+w pliku test.in. Opis formatu testów znajduje się w komentarzu
+na górze pliku interactor.c. Taki test można oczywiście wyświetlić
+komendą
+
+cat test.in
+
+Program generujący testy jest deterministyczny. Innymi słowy,
+za każdym uruchomieniem programu test o tym samym numerze będzie
+taki sam (chyba, że w międzyczasie zmodyfikujemy program test_gen.cpp).
+
+Program test_gen.cpp można (i warto) modyfikować aby generować mniejsze/większe
+testy. W tym celu można zmieniać zakres, z którego losowane są liczby n oraz
+q (na początku funkcji main).
+
+Uwaga:
+    1) Powyższe programy nie muszą sprawdzać poprawności testów,
+       tak więc wszelkie zmiany w pliku test_gen.cpp wykonujemy
+       na własną odpowiedzialność.
+    2) Polecane jest utworzyć kopię zapasową swojego projektu przed
+       rozpoczęciem testowania.
+    3) Testy nie sprawdzają reakcji programu na błędy alokacji pamięci
+       ani inne błędy techniczne. W szczególności nie sprawdzają
+       czy program poprawnie ustawia zmienną errno.
+    4) Nie ma żadnej gwarancji, że program przechodzący wszystkie testy
+       jest w 100% poprawny. Zalecany jest zdrowy rozsądek.
+                    
