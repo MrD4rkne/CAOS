@@ -1,39 +1,10 @@
 {
-  "files.associations": {
-    ".fantomasignore": "ignore",
-    "nand.h": "c",
-    "stdio.h": "c",
-    "memory_tests.h": "c",
-    "stdbool.h": "c",
-    "type_traits": "c",
-    "input.h": "c",
-    "stdlib.h": "c",
-    "assert.h": "c",
-    "math.h": "c",
-    "vector": "c",
-    "types.h": "c",
-    "*.tcc": "c",
-    "compare": "c",
-    "cmath": "c",
-    "limits": "c",
-    "utility": "c"
-  },
-  "makefile.makefilePath": "",
-  "makefile.configurations": [
-    {
-      "name": "Zal1: list test",
-      "makeDirectory": "/home/mszopa/uw/Sem2/Akso/Zal1/tests/list",
-      "makeArgs": []
-    }
-  ],
-  "C_Cpp.formatting": "vcFormat",
-  "editor.tabSize": 2,
-  "C_Cpp_Runner.msvcBatchPath": "",
   "C_Cpp_Runner.cCompilerPath": "gcc",
   "C_Cpp_Runner.cppCompilerPath": "g++",
   "C_Cpp_Runner.debuggerPath": "gdb",
   "C_Cpp_Runner.cStandard": "",
   "C_Cpp_Runner.cppStandard": "",
+  "C_Cpp_Runner.msvcBatchPath": "",
   "C_Cpp_Runner.useMsvc": false,
   "C_Cpp_Runner.warnings": [
     "-Wall",

@@ -57,3 +57,8 @@ Zal3/InputFiles/myFile3
 Zal3/InputFiles/myFile4
 Zal3/InputFiles/myFile5
 Zal3/InputFiles/myFile6
+
+.vscode/lanch.json
+.vscode/launch.json
+.vscode/settings.json
+.vscode/c_cpp_properties.json
